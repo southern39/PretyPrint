@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.author           = { 'namcp' => 'namcaophng.code@gmail.com' }
   s.platform         = :ios, '15.0'
   s.swift_version    = '5.0'
-  s.source            = { :git => 'https://github.com/southern39/PretyPrint.git', :tag => "#{s.version}" }
-  s.framework         = "UIKit"
-  s.source_files      = 'PretyPrint*' , 'Classes/*', 'Resources/*'
-  s.requires_arc      = true
+  s.source           = { :git => 'https://github.com/southern39/PretyPrint.git', :tag => "#{s.version}" }
+  s.source_files     = "PretyPrint/"
+  s.requires_arc     = true
+  s.swift_version    = "5.0"
 
   s.dependency 'Kingfisher'
 
