@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '15.0'
   s.swift_version    = '5.0'
 
-  s.source_files     = 'Prety/**/*.{swift,h,m}'
+  s.source_files     = 'PretyPrint/**/*.{swift,h,m}'
   s.resource_bundles = {
-    'VHTCameraT3' => ['Prety/Resources/**/*']
+    'PretyPrint' => ['PretyPrint/Resources/**/*']
   }
 
   s.dependency 'Kingfisher'
