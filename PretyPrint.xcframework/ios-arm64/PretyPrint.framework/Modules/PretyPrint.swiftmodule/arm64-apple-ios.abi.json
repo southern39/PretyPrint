@@ -1,0 +1,143 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PretyPrint",
+    "printedName": "PretyPrint",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PretyPrint",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Prety",
+        "printedName": "Prety",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Prety",
+                "printedName": "PretyPrint.Prety",
+                "usr": "s:10PretyPrint0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PretyPrint0A0C6sharedACvpZ",
+            "mangledName": "$s10PretyPrint0A0C6sharedACvpZ",
+            "moduleName": "PretyPrint",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Prety",
+                    "printedName": "PretyPrint.Prety",
+                    "usr": "s:10PretyPrint0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PretyPrint0A0C6sharedACvgZ",
+                "mangledName": "$s10PretyPrint0A0C6sharedACvgZ",
+                "moduleName": "PretyPrint",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "printCat",
+            "printedName": "printCat()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PretyPrint0A0C8printCatyyF",
+            "mangledName": "$s10PretyPrint0A0C8printCatyyF",
+            "moduleName": "PretyPrint",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printDog",
+            "printedName": "printDog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PretyPrint0A0C8printDogyyF",
+            "mangledName": "$s10PretyPrint0A0C8printDogyyF",
+            "moduleName": "PretyPrint",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10PretyPrint0A0C",
+        "mangledName": "$s10PretyPrint0A0C",
+        "moduleName": "PretyPrint",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
