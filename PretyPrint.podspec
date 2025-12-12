@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = 'PretyPrint'
-  s.version                   = '0.0.5'
+  s.version                   = '0.0.6'
   s.summary                   = 'Print something'
   s.description               = 'Just for test print function'
   s.homepage                  = 'https://github.com/southern39/PretyPrint'
@@ -17,18 +17,3 @@ Pod::Spec.new do |s|
   s.dependency 'Kingfisher'
 
 end
-
-# xcodebuild archive \
-#   -workspace PrintS.xcworkspace \
-#   -scheme PretyPrint \
-#   -configuration Release \
-#   -destination "generic/platform=iOS" \
-#   -archivePath "build/iOS" \
-#   SKIP_INSTALL=NO \
-#   BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
-#   IPHONEOS_DEPLOYMENT_TARGET=13.0 \
-#   SUPPORTS_MACCATALYST=NO
-
-# xcodebuild -create-xcframework \
-#   -framework build/iOS.xcarchive/Products/Library/Frameworks/PretyPrint.framework \
-#   -output PretyPrint.xcframework
