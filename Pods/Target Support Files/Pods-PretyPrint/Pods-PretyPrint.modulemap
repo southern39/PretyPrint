@@ -1,0 +1,6 @@
+framework module Pods_PretyPrint {
+  umbrella header "Pods-PretyPrint-umbrella.h"
+
+  export *
+  module * { export * }
+}

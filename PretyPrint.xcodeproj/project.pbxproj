@@ -69,6 +69,8 @@
 		};
 		5E64C1C82EEBC99E00F7AD95 /* PretyPrint */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = PretyPrint;
 			sourceTree = "<group>";
 		};
@@ -212,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E64C1952EEBC90300F7AD95 /* Build configuration list for PBXProject "PrintSomething" */;
+			buildConfigurationList = 5E64C1952EEBC90300F7AD95 /* Build configuration list for PBXProject "PretyPrint" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -280,13 +282,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PrintSomething/Pods-PrintSomething-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PrintSomething/Pods-PrintSomething-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -611,7 +609,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E64C1952EEBC90300F7AD95 /* Build configuration list for PBXProject "PrintSomething" */ = {
+		5E64C1952EEBC90300F7AD95 /* Build configuration list for PBXProject "PretyPrint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E64C1B02EEBC90400F7AD95 /* Debug */,
