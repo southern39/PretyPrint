@@ -10,6 +10,7 @@
 		3CFDA93D38CE02BEEAC04A14 /* Pods_PrintSomething.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DBC6384165B326472D8264 /* Pods_PrintSomething.framework */; };
 		5E64C1CD2EEBC99E00F7AD95 /* PretyPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */; };
 		5E64C1CE2EEBC99E00F7AD95 /* PretyPrint.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		82FD555B10E4334D1BC4A1AE /* Pods_PretyPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA81BE47411C21EE4F8D943E /* Pods_PretyPrint.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +38,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1461A94BC39E29E446C0264C /* Pods-PretyPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PretyPrint.release.xcconfig"; path = "Target Support Files/Pods-PretyPrint/Pods-PretyPrint.release.xcconfig"; sourceTree = "<group>"; };
+		4D55F2F4E15A42BF96FD04BB /* Pods-PretyPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PretyPrint.debug.xcconfig"; path = "Target Support Files/Pods-PretyPrint/Pods-PretyPrint.debug.xcconfig"; sourceTree = "<group>"; };
 		5E64C19A2EEBC90300F7AD95 /* PrintSomething.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintSomething.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PretyPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C888A2F46DDF0FCB969DF3B7 /* Pods-PrintSomething.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintSomething.debug.xcconfig"; path = "Target Support Files/Pods-PrintSomething/Pods-PrintSomething.debug.xcconfig"; sourceTree = "<group>"; };
+		CA81BE47411C21EE4F8D943E /* Pods_PretyPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PretyPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DBC6384165B326472D8264 /* Pods_PrintSomething.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintSomething.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09121E3D5398FCB91DAA817 /* Pods-PrintSomething.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintSomething.release.xcconfig"; path = "Target Support Files/Pods-PrintSomething/Pods-PrintSomething.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FD555B10E4334D1BC4A1AE /* Pods_PretyPrint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +100,8 @@
 			children = (
 				C888A2F46DDF0FCB969DF3B7 /* Pods-PrintSomething.debug.xcconfig */,
 				F09121E3D5398FCB91DAA817 /* Pods-PrintSomething.release.xcconfig */,
+				4D55F2F4E15A42BF96FD04BB /* Pods-PretyPrint.debug.xcconfig */,
+				1461A94BC39E29E446C0264C /* Pods-PretyPrint.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -103,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				E7DBC6384165B326472D8264 /* Pods_PrintSomething.framework */,
+				CA81BE47411C21EE4F8D943E /* Pods_PretyPrint.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,6 +157,7 @@
 				5E64C1972EEBC90300F7AD95 /* Frameworks */,
 				5E64C1982EEBC90300F7AD95 /* Resources */,
 				5E64C1CF2EEBC99E00F7AD95 /* Embed Frameworks */,
+				5BC79E54651CBBC4492BF070 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E64C1D22EEBC99E00F7AD95 /* Build configuration list for PBXNativeTarget "PretyPrint" */;
 			buildPhases = (
+				9863A2AA8536C138E369D3CF /* [CP] Check Pods Manifest.lock */,
 				5E64C1C22EEBC99E00F7AD95 /* Headers */,
 				5E64C1C32EEBC99E00F7AD95 /* Sources */,
 				5E64C1C42EEBC99E00F7AD95 /* Frameworks */,
@@ -180,8 +190,6 @@
 				5E64C1C82EEBC99E00F7AD95 /* PretyPrint */,
 			);
 			name = PretyPrint;
-			packageProductDependencies = (
-			);
 			productName = PretyPrint;
 			productReference = 5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */;
 			productType = "com.apple.product-type.framework";
@@ -258,6 +266,49 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PrintSomething-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC79E54651CBBC4492BF070 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrintSomething/Pods-PrintSomething-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrintSomething/Pods-PrintSomething-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrintSomething/Pods-PrintSomething-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9863A2AA8536C138E369D3CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PretyPrint-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -481,6 +532,7 @@
 		};
 		5E64C1D02EEBC99E00F7AD95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D55F2F4E15A42BF96FD04BB /* Pods-PretyPrint.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +571,7 @@
 		};
 		5E64C1D12EEBC99E00F7AD95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1461A94BC39E29E446C0264C /* Pods-PretyPrint.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
