@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3CFDA93D38CE02BEEAC04A14 /* Pods_PrintSomething.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DBC6384165B326472D8264 /* Pods_PrintSomething.framework */; };
-		5E64C1CD2EEBC99E00F7AD95 /* PretyPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */; };
-		5E64C1CE2EEBC99E00F7AD95 /* PretyPrint.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5E64C1CD2EEBC99E00F7AD95 /* PrintS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E64C1C72EEBC99E00F7AD95 /* PrintS.framework */; };
+		5E64C1CE2EEBC99E00F7AD95 /* PrintS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E64C1C72EEBC99E00F7AD95 /* PrintS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82FD555B10E4334D1BC4A1AE /* Pods_PretyPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA81BE47411C21EE4F8D943E /* Pods_PretyPrint.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5E64C1CE2EEBC99E00F7AD95 /* PretyPrint.framework in Embed Frameworks */,
+				5E64C1CE2EEBC99E00F7AD95 /* PrintS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,7 +41,7 @@
 		1461A94BC39E29E446C0264C /* Pods-PretyPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PretyPrint.release.xcconfig"; path = "Target Support Files/Pods-PretyPrint/Pods-PretyPrint.release.xcconfig"; sourceTree = "<group>"; };
 		4D55F2F4E15A42BF96FD04BB /* Pods-PretyPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PretyPrint.debug.xcconfig"; path = "Target Support Files/Pods-PretyPrint/Pods-PretyPrint.debug.xcconfig"; sourceTree = "<group>"; };
 		5E64C19A2EEBC90300F7AD95 /* PrintSomething.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintSomething.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PretyPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E64C1C72EEBC99E00F7AD95 /* PrintS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrintS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C888A2F46DDF0FCB969DF3B7 /* Pods-PrintSomething.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintSomething.debug.xcconfig"; path = "Target Support Files/Pods-PrintSomething/Pods-PrintSomething.debug.xcconfig"; sourceTree = "<group>"; };
 		CA81BE47411C21EE4F8D943E /* Pods_PretyPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PretyPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DBC6384165B326472D8264 /* Pods_PrintSomething.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintSomething.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,8 +69,6 @@
 		};
 		5E64C1C82EEBC99E00F7AD95 /* PretyPrint */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = PretyPrint;
 			sourceTree = "<group>";
 		};
@@ -82,7 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CFDA93D38CE02BEEAC04A14 /* Pods_PrintSomething.framework in Frameworks */,
-				5E64C1CD2EEBC99E00F7AD95 /* PretyPrint.framework in Frameworks */,
+				5E64C1CD2EEBC99E00F7AD95 /* PrintS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				5E64C19A2EEBC90300F7AD95 /* PrintSomething.app */,
-				5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */,
+				5E64C1C72EEBC99E00F7AD95 /* PrintS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,9 +172,9 @@
 			productReference = 5E64C19A2EEBC90300F7AD95 /* PrintSomething.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E64C1C62EEBC99E00F7AD95 /* PretyPrint */ = {
+		5E64C1C62EEBC99E00F7AD95 /* PrintS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E64C1D22EEBC99E00F7AD95 /* Build configuration list for PBXNativeTarget "PretyPrint" */;
+			buildConfigurationList = 5E64C1D22EEBC99E00F7AD95 /* Build configuration list for PBXNativeTarget "PrintS" */;
 			buildPhases = (
 				9863A2AA8536C138E369D3CF /* [CP] Check Pods Manifest.lock */,
 				5E64C1C22EEBC99E00F7AD95 /* Headers */,
@@ -191,9 +189,9 @@
 			fileSystemSynchronizedGroups = (
 				5E64C1C82EEBC99E00F7AD95 /* PretyPrint */,
 			);
-			name = PretyPrint;
+			name = PrintS;
 			productName = PretyPrint;
-			productReference = 5E64C1C72EEBC99E00F7AD95 /* PretyPrint.framework */;
+			productReference = 5E64C1C72EEBC99E00F7AD95 /* PrintS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E64C1952EEBC90300F7AD95 /* Build configuration list for PBXProject "PretyPrint" */;
+			buildConfigurationList = 5E64C1952EEBC90300F7AD95 /* Build configuration list for PBXProject "PrintS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -229,7 +227,7 @@
 			projectRoot = "";
 			targets = (
 				5E64C1992EEBC90300F7AD95 /* PrintSomething */,
-				5E64C1C62EEBC99E00F7AD95 /* PretyPrint */,
+				5E64C1C62EEBC99E00F7AD95 /* PrintS */,
 			);
 		};
 /* End PBXProject section */
@@ -282,9 +280,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PrintSomething/Pods-PrintSomething-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PrintSomething/Pods-PrintSomething-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -335,7 +337,7 @@
 /* Begin PBXTargetDependency section */
 		5E64C1CC2EEBC99E00F7AD95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E64C1C62EEBC99E00F7AD95 /* PretyPrint */;
+			target = 5E64C1C62EEBC99E00F7AD95 /* PrintS */;
 			targetProxy = 5E64C1CB2EEBC99E00F7AD95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -609,7 +611,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E64C1952EEBC90300F7AD95 /* Build configuration list for PBXProject "PretyPrint" */ = {
+		5E64C1952EEBC90300F7AD95 /* Build configuration list for PBXProject "PrintS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E64C1B02EEBC90400F7AD95 /* Debug */,
@@ -627,7 +629,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E64C1D22EEBC99E00F7AD95 /* Build configuration list for PBXNativeTarget "PretyPrint" */ = {
+		5E64C1D22EEBC99E00F7AD95 /* Build configuration list for PBXNativeTarget "PrintS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E64C1D02EEBC99E00F7AD95 /* Debug */,

@@ -7,8 +7,8 @@
 
 import Foundation
 
-public class PretyPrint {
-    public static let shared = PretyPrint()
+public class Prety {
+    public static let shared = Prety()
     
     public func printCat() {
         print("cat")
