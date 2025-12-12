@@ -6,14 +6,12 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/southern39/PretyPrint'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'namcp' => 'namcaophng.code@gmail.com' }
-  s.source           = { :path => '.' }
   s.platform         = :ios, '15.0'
   s.swift_version    = '5.0'
-
-  s.source_files     = 'PretyPrint/**/*.{swift,h,m}'
-  s.resource_bundles = {
-    'PretyPrint' => ['PretyPrint/Resources/**/*']
-  }
+  s.source            = { :git => 'https://github.com/southern39/PretyPrint.git', :tag => "#{s.version}" }
+  s.framework         = "UIKit"
+  s.source_files      = 'PretyPrint*' , 'Classes/*', 'Resources/*'
+  s.requires_arc      = true
 
   s.dependency 'Kingfisher'
 
