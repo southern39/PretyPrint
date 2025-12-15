@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = 'PretyPrint'
-  s.version                   = '0.0.12'
+  s.version                   = '0.0.13'
   s.summary                   = 'Print something'
   s.description               = 'Just for test print function'
   s.homepage                  = 'https://github.com/southern39/PretyPrint'
