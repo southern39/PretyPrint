@@ -85,7 +85,6 @@
             "usr": "s:10PretyPrint0A0C8printCatyyF",
             "mangledName": "$s10PretyPrint0A0C8printCatyyF",
             "moduleName": "PretyPrint",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -106,37 +105,16 @@
             "usr": "s:10PretyPrint0A0C8printDogyyF",
             "mangledName": "$s10PretyPrint0A0C8printDogyyF",
             "moduleName": "PretyPrint",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Prety",
-                "printedName": "PretyPrint.Prety",
-                "usr": "s:10PretyPrint0A0C"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10PretyPrint0A0CACycfc",
-            "mangledName": "$s10PretyPrint0A0CACycfc",
-            "moduleName": "PretyPrint",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
         "usr": "s:10PretyPrint0A0C",
         "mangledName": "$s10PretyPrint0A0C",
         "moduleName": "PretyPrint",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],

@@ -8,17 +8,13 @@
 		<data>
 		fXZUIG4X1e5Mmm7H8H8K6d/gVP4=
 		</data>
-		<key>Modules/PretyPrint.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		TGh1Zyqm8xZmQR9yq8i92nj8lg8=
-		</data>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kOD96+xvb6Fpfshof45CDQBkmuc=
+		EGGO4Mr6DvOsxpJR9894WY1JKZw=
 		</data>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		x9cHgowyoJWOLdkG3FbTyu3EAmQ=
+		/5t+bSCMP8jR5+V38Sb8B6B+2zc=
 		</data>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +22,11 @@
 		</data>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		x9cHgowyoJWOLdkG3FbTyu3EAmQ=
+		/5t+bSCMP8jR5+V38Sb8B6B+2zc=
 		</data>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		t+QODP0MlZXVzVCLOuf8r9P34Qs=
+		yUv4tamkBhtx6DPEUzOAZMdRkJg=
 		</data>
 		<key>script.sh</key>
 		<data>
@@ -39,25 +35,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Modules/PretyPrint.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dcG2eqFqdwqE1JS26FOGMca/pa7q6K9qbr2WbDviQeM=
-			</data>
-		</dict>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qK2yPtVLQy3K5S7PPmibPfnOHrN+XbMgQ5DSaaLiaiI=
+			hDAZQK9iy2GZFr3PazaD1jcuLAs1fBrmCwjXSZk0Bfg=
 			</data>
 		</dict>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HX6y0cxD1vnBmSZMLigo1m6s2OtVYy5UEjAAaGDGZCA=
+			ywHRrjkM4pxjqM548cLKG5d5b+XnTBnv/hWCrVbShDA=
 			</data>
 		</dict>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HX6y0cxD1vnBmSZMLigo1m6s2OtVYy5UEjAAaGDGZCA=
+			ywHRrjkM4pxjqM548cLKG5d5b+XnTBnv/hWCrVbShDA=
 			</data>
 		</dict>
 		<key>Modules/PretyPrint.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VvdoE3xM3/xm1/v5BrNkGFbll/rID/4L5UrMLam87fc=
+			G39+aYoZe/lA9kPvDsCF6zE17O41lL+C7l8cITn9RV4=
 			</data>
 		</dict>
 		<key>script.sh</key>
