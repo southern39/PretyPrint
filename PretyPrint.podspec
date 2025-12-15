@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = 'PretyPrint'
-  s.version                   = '0.0.10'
+  s.version                   = '0.0.11'
   s.summary                   = 'Print something'
   s.description               = 'Just for test print function'
   s.homepage                  = 'https://github.com/southern39/PretyPrint'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # s.source_files              = "PretyPrint/"
   s.requires_arc              = true
   s.swift_version             = "5.0"
-  s.vendored_frameworks       = 'PretyPrint.framework'
+  s.vendored_frameworks       = 'PretyPrint.xcframework'
 
   s.dependency 'Kingfisher'
 
