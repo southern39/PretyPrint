@@ -10,7 +10,7 @@ xcodebuild archive \
     -destination 'generic/platform=iOS' \
     -archivePath './build/PretyPrint-iphoneos.xcarchive' \
     SKIP_INSTALL=NO \
-    BUILD_LIBRARIES_FOR_DISTRIBUTION=YES \
+    BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
     DEFINES_MODULE=YES
 
 # Create XCFramework
